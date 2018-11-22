@@ -33,7 +33,7 @@ Name: "dutch"; MessagesFile: "compiler:Languages\Dutch.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-; Source: "input\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
+Source: "input\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
 
 [Icons]
 Name: "{group}\{#AppName}"; Filename: "{app}\{#AppExecutable}"; IconFilename: "{app}\resources\app\img\icons\icon@64px.ico"
