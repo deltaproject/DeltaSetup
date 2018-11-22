@@ -1,2 +1,2 @@
 # DeltaSetup
-💽 De installatiewizard van Delta.
+💽 De installatiewizard van Delta, gemaakt met InnoScript.
