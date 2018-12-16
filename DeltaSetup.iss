@@ -26,6 +26,8 @@ SolidCompression=yes
 PrivilegesRequired=lowest
 DisableWelcomePage=no
 LicenseFile=input\resources\app\LICENSE
+UninstallDisplayName={#AppName}
+UninstallDisplayIcon={app}\resources\app\img\icons\icon@64px.ico
 
 [Languages]
 Name: "dutch"; MessagesFile: "compiler:Languages\Dutch.isl"
