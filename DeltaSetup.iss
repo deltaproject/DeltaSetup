@@ -41,5 +41,5 @@ Name: "{group}\{#AppName}"; Filename: "{app}\{#AppExecutable}"; IconFilename: "{
 Name: "{commondesktop}\{#AppName}"; Filename: "{app}\{#AppExecutable}"; IconFilename: "{app}\resources\app\img\icons\icon@64px.ico"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\{#AppExecutable}"; Description: "{cm:LaunchProgram,{#StringChange(AppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\{#AppExecutable}"; Description: "{cm:LaunchProgram,{#StringChange(AppName, '&', '&&')}}"; Flags: nowait postinstall
 
